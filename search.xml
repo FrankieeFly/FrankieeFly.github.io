@@ -4,11 +4,24 @@
   
     
     <entry>
-      <title>Hello World!</title>
-      <link href="/2024/07/07/Cpp%20-%201/"/>
-      <url>/2024/07/07/Cpp%20-%201/</url>
+      <title>First Text</title>
+      <link href="/2024/07/07/2024-07-07-first-text/"/>
+      <url>/2024/07/07/2024-07-07-first-text/</url>
       
-        <content type="html"><![CDATA[<h2 id="Cpp"><a href="#Cpp" class="headerlink" title="Cpp"></a>Cpp</h2><p>a &gt;= b</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="My-First-Text"><a href="#My-First-Text" class="headerlink" title="My First Text"></a>My First Text</h2>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World!</title>
+      <link href="/2024/07/07/Cpp/Cpp%20-%201/"/>
+      <url>/2024/07/07/Cpp/Cpp%20-%201/</url>
+      
+        <content type="html"><![CDATA[<h2 id="安装-MingW64-和-Sublime-Text-编译器"><a href="#安装-MingW64-和-Sublime-Text-编译器" class="headerlink" title="安装 MingW64 和 Sublime Text 编译器"></a>安装 MingW64 和 Sublime Text 编译器</h2><p>0.以下安装内容已经给大家打包完成, 可以通过链接去官网下载安装, 也可以通过 Fly 的网盘进行下载 <a href="https://pan.baidu.com/s/1zD9uVJinFACihryod9YwCw">课程资源</a> 提取码: <code>0436</code><br /></p><p>1.下载安装 MingW64 并配置环境变量 <br /></p><ul><li>下载并安装 <a href="https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download">MingW64</a> &lt;- 点击链接</li><li>安装时选择 <code>mingw-w64-x86_64-gcc-8.1.0-posix-seh-rt_v6-rev0</code></li><li>安装到任意位置(<code>建议位置 =&gt; D:\mingw64</code>)并解压完成<blockquote><p><img src="/img/Cpp1/img1.png" alt="image-20230707113541909" style="zoom:100%;" /><br /></p></blockquote></li><li>配置环境变量 <blockquote><p><code>点击 系统 &gt; 系统信息 &gt; 高级系统设置</code><br><img src="/img/Cpp1/img2.png" alt="image-20230707113541909" style="zoom:100%;" /><br /></p><p><code>点击 环境变量 &gt; 系统变量 &gt; PATH</code></p><p><img src="/img/Cpp1/img3.png" alt="image-20230707113541909" style="zoom:100%;" /><br /></p><p><code>点击 编辑 &gt; 添加 &gt; D:\mingw64\bin</code></p><p><img src="/img/Cpp1/img4.png" alt="image-20230707113541909" style="zoom:100%;" /><br /></p><p><code>点击 确定 &gt; 确定 &gt; 确定 (必须点确定才能成功配置, 否则可能出先一些奇奇怪怪的 bug)</code></p></blockquote></li><li>按住 Win + R 打开(即输入) cmd(命令行) 输入 <code>gcc -v</code> 测试是否安装成功<blockquote><p><img src="/img/Cpp1/img5.png" alt="image-20230707113541909" style="zoom:100%;" /><br /></p><p><code>如果出现类似以上信息则表示安装成功</code></p></blockquote></li><li>在 <code>D:\</code> 创建一个记事本, 将以下代码复制到文件中, 保存后将文件名改为 <code>test.cpp</code>, 注意后缀名 为 <code>.cpp</code><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="built_in">printf</span>(<span class="string">&quot;Hello World!&quot;</span>);</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li>在 ‘D:\’ 地址处打开 cmd, 输入 <code>g++ test.cpp -o test.exe</code> 编译成功后输入 <code>test.exe</code> 运行成功<blockquote><p><img src="/img/Cpp1/img6.png" alt="image-20230707113541909" style="zoom:100%;" /><br /></p><p><img src="/img/Cpp1/img7.png" alt="image-20230707113541909" style="zoom:100%;" /><br /></p><p><code>如果出现 Hello World! 则表示运行成功</code></p></blockquote></li></ul><p>2.下载安装 Sublime Text 编译器 <br /></p><ul><li>下载并安装 <a href="https://www.sublimetext.com/">Sublime Text</a> &lt;- 点击链接</li><li>安装到任意位置(<code>建议位置 =&gt; D:\sublime</code>)</li><li>打开 Sublime Text 输入 <code>Ctrl + Shift + P</code> 打开命令面板</li><li>输入 <code>Install</code> 下载 Package Control</li><li>输入 <code>Package Control: Install Package</code> 然后回车(如果命令面板消失, 再按一次 <code>Ctrl + Shift + P</code>)</li><li>输入 <code>cppfastOlympiccoding</code>, 下载这个插件</li><li>左上角 <code>File</code> 下面选择打开文件夹, 在此目录下按住 <code>Ctrl + N</code> 创建新文件, <code>Ctrl + S</code> 保存文件, <code>Ctrl + Alt + B</code> 编译运行</li></ul><h2 id="成功打印-Hello-World"><a href="#成功打印-Hello-World" class="headerlink" title="成功打印 Hello World!"></a>成功打印 Hello World!</h2><ul><li>将以下几段代码都手动输入到 Sublime Text 中 (注意格式哦, 比如缩进, 字符)<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="built_in">printf</span>(<span class="string">&quot;Hello World!\n&quot;</span>);</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="built_in">printf</span>(<span class="string">&quot;Hello World!\n&quot;</span>);</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  std::cout &lt;&lt; <span class="string">&quot;Hello World!&quot;</span> &lt;&lt; std::endl;</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  cout &lt;&lt; <span class="string">&quot;Hello World!&quot;</span> &lt;&lt; endl;</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul>]]></content>
       
       
       <categories>
@@ -23,22 +36,9 @@
     
     
     <entry>
-      <title>First Text</title>
-      <link href="/2024/07/07/2024-07-07-first-text/"/>
-      <url>/2024/07/07/2024-07-07-first-text/</url>
-      
-        <content type="html"><![CDATA[<h2 id="My-First-Text"><a href="#My-First-Text" class="headerlink" title="My First Text"></a>My First Text</h2>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>顺序结构</title>
-      <link href="/2024/07/07/Cpp%20-%202/"/>
-      <url>/2024/07/07/Cpp%20-%202/</url>
+      <link href="/2024/07/07/Cpp/Cpp%20-%202/"/>
+      <url>/2024/07/07/Cpp/Cpp%20-%202/</url>
       
         <content type="html"><![CDATA[<h2 id="Cpp"><a href="#Cpp" class="headerlink" title="Cpp"></a>Cpp</h2><p>a == b</p>]]></content>
       
