@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>Lesson_3 第一章习题</title>
-      <link href="/2024/09/19/lesson_cpp/lesson_3/"/>
-      <url>/2024/09/19/lesson_cpp/lesson_3/</url>
+      <title>Lesson_2 分支结构</title>
+      <link href="/2024/09/19/lesson_cpp/lesson_2/"/>
+      <url>/2024/09/19/lesson_cpp/lesson_2/</url>
       
-        <content type="html"><![CDATA[<p><h3>Video</h3></p><div style="text-align: center;">  <video src="https://fly-lesson.oss-cn-beijing.aliyuncs.com/9%E6%9C%8819%E6%97%A5%20%281%29.mp4" height="80%" width="80%" preload="auto" poster="../video/show.png" controls>    <p>你的浏览器不支持video标签</p>  </video></div>]]></content>
+        <content type="html"><![CDATA[<p><h3>Video</h3></p><p><div style="text-align: center;">  迁移至 B站: 0436实验室</div></p><p><h3>Homework</h3><br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1.</span> P1085 [NOIP2004 普及组] 不高兴的津津 </span><br><span class="line"><span class="number">2.</span> P5717 【深基<span class="number">3.</span>习<span class="number">8</span>】三角形分类 </span><br><span class="line"><span class="number">3.</span> P1424 小鱼的航程（改进版） </span><br><span class="line"><span class="number">4.</span> P4414 [COCI2006<span class="number">-2007</span>#<span class="number">2</span>] ABC</span><br><span class="line"><span class="number">5.</span> P1046 [NOIP2005 普及组] 陶陶摘苹果 </span><br></pre></td></tr></table></figure></p>]]></content>
       
       
       <categories>
@@ -23,11 +23,11 @@
     
     
     <entry>
-      <title>Lesson_2 分支结构</title>
-      <link href="/2024/09/19/lesson_cpp/lesson_2/"/>
-      <url>/2024/09/19/lesson_cpp/lesson_2/</url>
+      <title>Lesson_3 第一章习题</title>
+      <link href="/2024/09/19/lesson_cpp/lesson_3/"/>
+      <url>/2024/09/19/lesson_cpp/lesson_3/</url>
       
-        <content type="html"><![CDATA[<p><h3>Video</h3></p><p><div style="text-align: center;">  <video src="https://fly-lesson.oss-cn-beijing.aliyuncs.com/9%E6%9C%8819%E6%97%A5.mp4" height="80%" width="80%" preload="auto" poster="../video/show.png" controls>    <p>你的浏览器不支持video标签</p>  </video></div></p><p><h3>Homework</h3><br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1.</span> P1085 [NOIP2004 普及组] 不高兴的津津 </span><br><span class="line"><span class="number">2.</span> P5717 【深基<span class="number">3.</span>习<span class="number">8</span>】三角形分类 </span><br><span class="line"><span class="number">3.</span> P1424 小鱼的航程（改进版） </span><br><span class="line"><span class="number">4.</span> P4414 [COCI2006<span class="number">-2007</span>#<span class="number">2</span>] ABC</span><br><span class="line"><span class="number">5.</span> P1046 [NOIP2005 普及组] 陶陶摘苹果 </span><br></pre></td></tr></table></figure></p>]]></content>
+        <content type="html"><![CDATA[<p><h3>Video</h3></p><div style="text-align: center;">  迁移至 B站: 0436实验室</div>]]></content>
       
       
       <categories>
@@ -99,6 +99,19 @@
     
     
     <entry>
+      <title>First Text</title>
+      <link href="/2024/07/07/2024-07-07-first-text/"/>
+      <url>/2024/07/07/2024-07-07-first-text/</url>
+      
+        <content type="html"><![CDATA[<h2 id="My-First-Text"><a href="#My-First-Text" class="headerlink" title="My First Text"></a>My First Text</h2>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World!</title>
       <link href="/2024/07/07/Cpp/Cpp%20-%201/"/>
       <url>/2024/07/07/Cpp/Cpp%20-%201/</url>
@@ -130,19 +143,6 @@
           <category> Cpp入门教程 </category>
           
       </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>First Text</title>
-      <link href="/2024/07/07/2024-07-07-first-text/"/>
-      <url>/2024/07/07/2024-07-07-first-text/</url>
-      
-        <content type="html"><![CDATA[<h2 id="My-First-Text"><a href="#My-First-Text" class="headerlink" title="My First Text"></a>My First Text</h2>]]></content>
-      
       
       
     </entry>
